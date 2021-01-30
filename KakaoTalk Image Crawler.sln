@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Injector", "Injector\Injector.vcxproj", "{9E33F9F9-4562-459C-BE79-C724CD3C39F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{785F3658-EFDB-4D1C-9660-B620F27012C7} = {785F3658-EFDB-4D1C-9660-B620F27012C7}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KakaoTalk Image Crawler", "KakaoTalk Image Crawler\KakaoTalk Image Crawler.vcxproj", "{785F3658-EFDB-4D1C-9660-B620F27012C7}"
 EndProject
