@@ -9,7 +9,7 @@ using namespace blackbone;
 int main(int argc, char* argv[]) {
 	Process process;
 	process.Attach(L"KakaoTalk.exe");
-	auto result = process.mmap().MapImage(
+	auto result = process.modules().Inject(
 		filesystem::current_path().wstring() + L"\\KakaoTalk Image Downloader.dll"
 	);
 	if (!result) {
