@@ -454,5 +454,3 @@ MigrationBackup/
 # End of https://www.toptal.com/developers/gitignore/api/windows,visualstudio,c,c++
 
 !Blackbone/**
-Blackbone/.gitattributes
-Blackbone/.gitignore
