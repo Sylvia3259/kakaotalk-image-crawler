@@ -15,6 +15,6 @@ wstring ExePath() {
 int main(int argc, char* argv[]) {
 	Process process;
 	process.Attach(L"KakaoTalk.exe");
-	process.mmap().MapImage(ExePath() + L"\\KakaoTalk Image Crawler.dll");
+	process.mmap().MapImage(ExePath() + L"\\KakaoTalk Image Downloader.dll");
 	process.Detach();
 }
